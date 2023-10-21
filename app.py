@@ -9,7 +9,7 @@ from pywebio.platform.flask import webio_view
 import argparse
 from pywebio import start_server
 from pywebio.session import run_js, set_env
-import pyperclip
+#import pyperclip
 
 
 
