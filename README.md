@@ -16,10 +16,15 @@ CI/CD (Continuous Integration/Continuous Deployment): We established a CI/CD pip
 **Key Features:**
 
 Secret Management: The application focuses on secure secret storage and retrieval, ensuring that sensitive information is well-protected.
+
 Access Control: Access to secrets is granted through generated codes, enhancing security and control over who can retrieve data.
+
 Infrastructure as Code (IaC): We used IaC tools to define and provision the underlying infrastructure, making deployments consistent and repeatable.
+
 Scalability and Resilience: Our design ensures that the application can handle increased workloads and recover gracefully from any failures.
+
 Cost Management: We actively managed project costs by using GCP's billing and cost optimization features to control expenses and maximize ROI.
+
 
 Sample Screen shots
 ![IMG-20231022-WA0001](https://github.com/aswinks123/DevOps-GCP-CI-CD-Secret-Keeper/assets/108337342/65269661-7863-45a7-a6c9-793aeed78902)
