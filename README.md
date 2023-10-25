@@ -4,7 +4,7 @@ Project Summary:
 
 Our project is a comprehensive solution for secure secret management and efficient access control. It is built around a containerized Python application that stores sensitive data in a Redis database, allowing authorized users to retrieve secrets using generated access codes. Here's a more detailed breakdown of the project:
 
-Technology Stack:
+**Technology Stack:**
 
 Python: The core of our application is written in Python, offering flexibility and ease of development.
 Google Cloud Platform (GCP): We leveraged GCP's infrastructure and services for robust and scalable cloud-based solutions.
@@ -13,7 +13,7 @@ Docker: Our application is containerized, which ensures consistency and ease of 
 Git: Version control with Git is used to track changes, collaborate with team members, and maintain a well-organized codebase.
 CI/CD (Continuous Integration/Continuous Deployment): We established a CI/CD pipeline using GCP Cloud Build and other CI/CD tools. This pipeline automates testing, building, and deployment processes, reducing manual intervention and enhancing code quality.
 
-Key Features:
+**Key Features:**
 
 Secret Management: The application focuses on secure secret storage and retrieval, ensuring that sensitive information is well-protected.
 Access Control: Access to secrets is granted through generated codes, enhancing security and control over who can retrieve data.
