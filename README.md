@@ -25,3 +25,12 @@ Our project is a comprehensive solution for secure secret management and efficie
 
 ![Screenshot 1](https://github.com/aswinks123/DevOps-GCP-CI-CD-Secret-Keeper/assets/108337342/65269661-7863-45a7-a6c9-793aeed78902)
 
+![image](https://github.com/aswinks123/DevOps-GCP-CI-CD-Secret-Keeper/assets/108337342/b477c00d-1c51-482e-bc40-be3650c85d43)
+
+![image](https://github.com/aswinks123/DevOps-GCP-CI-CD-Secret-Keeper/assets/108337342/14cbb0fc-e67a-4d67-8c39-93c2102f5748)
+
+![image](https://github.com/aswinks123/DevOps-GCP-CI-CD-Secret-Keeper/assets/108337342/ad51ca40-56d4-44cb-a32e-91912a500ee6)
+
+![image](https://github.com/aswinks123/DevOps-GCP-CI-CD-Secret-Keeper/assets/108337342/2cb2db49-0ae2-478d-8f80-36ba063c40fd)
+
+
