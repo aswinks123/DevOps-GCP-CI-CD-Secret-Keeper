@@ -2,10 +2,15 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/theta-grid-399223/secret-keeper', '.']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['container', 'clusters', 'get-credentials', 'secert-keeper', '--region', 'us-central1-c']
+  entrypoint: 'bash'
+  args:
+      - '-c'
+      - |
+        gcloud container clusters get-credentials secert-keeper \
+          --region us-central1-c
+
 - name: 'gcr.io/cloud-builders/kubectl'
   args: ['apply', '-f', 'k8s/deployment.yaml']
-  dir: '.'  # Adjust the directory path to where your Kubernetes manifests are located
 
 images:
 - 'gcr.io/theta-grid-399223/secret-keeper'
