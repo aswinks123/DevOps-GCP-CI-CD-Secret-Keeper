@@ -13,7 +13,7 @@ options:
   - 'container'
   - 'clusters'
   - 'get-credentials'
-  - 'secert-keeper'
+  - 'secret-keeper'
   - '--zone=us-central1-c'  # Replace with your GKE cluster and zone
   - '--project=theta-grid-399223'  # Replace with your GCP project ID
 
