@@ -4,3 +4,5 @@ steps:
 images:
 - 'gcr.io/theta-grid-399223/secret-keeper'
 serviceAccount: secret-keeper-docker-image-ser@theta-grid-399223.iam.gserviceaccount.com  # Replace with your service account email
+options:
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
