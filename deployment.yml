@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: your-app-deployment
+spec:
+  replicas: 3  # Set the desired number of replicas
+  selector:
+    matchLabels:
+      app: your-app
+  template:
+    metadata:
+      labels:
+        app: your-app
+    spec:
+      containers:
+      - name: your-app
+        image: gcr.io/theta-grid-399223/secret-keeper:latest  # Replace with your Docker image
+        ports:
+        - containerPort: 8085

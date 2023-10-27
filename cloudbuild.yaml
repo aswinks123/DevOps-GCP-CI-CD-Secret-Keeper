@@ -6,3 +6,19 @@ images:
 serviceAccount: secret-keeper-docker-image-ser@theta-grid-399223.iam.gserviceaccount.com  # Replace with your service account email
 options:
   default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - 'container'
+  - 'clusters'
+  - 'get-credentials'
+  - 'secert-keeper'
+  - '--zone=us-central1-c'  # Replace with your GKE cluster and zone
+  - '--project=theta-grid-399223'  # Replace with your GCP project ID
+- name: 'gcr.io/cloud-builders/kubectl'
+  args:
+  - 'apply'
+  - '-f'
+  - 'deployment.yaml'  # Deploy the Kubernetes Deployment
+  - '-f'
+  - 'service.yaml'  # Deploy the Kubernetes Service
