@@ -4,6 +4,7 @@ steps:
 images:
 - 'gcr.io/theta-grid-399223/secret-keeper'
 serviceAccount: secret-keeper-docker-image-ser@theta-grid-399223.iam.gserviceaccount.com  # Replace with your service account email
+
 options:
   default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
 
@@ -15,6 +16,7 @@ options:
   - 'secert-keeper'
   - '--zone=us-central1-c'  # Replace with your GKE cluster and zone
   - '--project=theta-grid-399223'  # Replace with your GCP project ID
+
 - name: 'gcr.io/cloud-builders/kubectl'
   args:
   - 'apply'
