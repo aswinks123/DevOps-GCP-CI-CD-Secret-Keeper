@@ -1,3 +1,6 @@
+#Secret Keeper application that allows to create a secret text and share it securly share it using the access token
+#Created by: Aswin KS
+
 from pywebio.input import input, select, textarea
 from pywebio.output import put_text, put_image, put_html, put_code, put_buttons, popup,put_progressbar,set_progressbar,toast,put_info
 from pywebio.input import textarea
@@ -100,9 +103,7 @@ def insert_data():
     #put_buttons(['Home', 'About', 'Copy'], onclick=btn_click)
     put_buttons(['Home', 'About','Copy'], onclick=lambda btn_val: btn_click(btn_val, code))
     
-
-
-     
+  
 
 
  #--------------------------------RETREIVE SECRET
@@ -150,7 +151,6 @@ def home():
 
  
    
-    
 
     larger_text= f'<span style="font-size: 60px; color: black; display: block; text-align: center; margin: 0 auto;">SECRET KEEPER</span>'
     put_html(larger_text)
